@@ -140,4 +140,5 @@ class Puppet::Provider::Mysql < Puppet::Provider
     end
 
     tls_options.values.join(' AND ')
-endend
+  end
+end
